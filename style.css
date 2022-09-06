@@ -1,0 +1,157 @@
+* {
+    font-family: 'Figtree', sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+body {
+    /* LOCKEAR ESTA IMAGEN */
+    /* background-image: url(https://larepublica.pe/resizer/ymDQddu_YUzc6MssxDAwutzI14k=/1200x660/top/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/DBMZV2N6KJCIJKCBPXBYCHZCAE.png);    
+    background-size: cover; */
+    /* IMAGEN A TAMAÑO COMPLETO */
+    width: 100vw;
+   
+}
+
+main{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Figtree', sans-serif;
+
+    color: #F82929; 
+    
+}
+
+#main-title {
+    font-size: 70px;  
+    /* color: #F82929;  */
+    font-family: 'Figtree', sans-serif; 
+}
+
+.band-desc {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 0 50px;
+    
+}
+
+.band-pics-container {
+    /* background-color: white; */
+    height: 100%;
+    width: 70%;
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/c7bc9a0/2147483647/strip/true/crop/1036x759+0+0/resize/1036x759!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F51%2F70%2F3cab81f14b879da5ab3160a745d1%2Fred-hot-chili-peppers-2021.jpg);
+}
+
+.band-name{
+    font-family: 'Figtree', sans-serif; 
+    font-weight: 900;
+    color: #F82929;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 60px;
+    text-align: center;
+    /* CENTRAR ESTE TITULO JUSTIFICAR*/
+    /* ANCLARLO A LA PARTE DE ARRIBA DEL PANEL */
+}
+
+.title-figtree{
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.title-swash-g{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 400;
+    color: #ABABAB;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.title-swash-r{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 400;
+    color: #F82929;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.line-break {
+    width: 190px;
+    margin-bottom: 50px;
+    border-color: #D6D6D6;
+    border-style: solid;
+}
+
+.logo {
+    /* ALINEAR LOGO CON BOTTOM OF PICTURE */
+    align-items: flex-end;
+
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#band-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+    
+}
+
+#band-members {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.members{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.member-photo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0px;
+}
+
+.member-img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
